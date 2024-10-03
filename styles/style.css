@@ -198,9 +198,19 @@ body {
     display: flex;
     flex-wrap: wrap;
 }
+
 .contatos-text {
     flex: 1 1 240px;
     margin: 0 10px;
+    color: coral;
+}
+
+.contatos-text--title {
+    font-size: 34px;
+}
+
+.contatos-text--content {
+    font-size: 18px;
 }
 
 .contatos-form {
@@ -238,11 +248,11 @@ body {
 }
 
 .footer {
-display: flex;
-background: coral;
-height: 100px;
-align-items: center;
-font-size: 28px;
-color: beige;
-justify-content: center;
+    display: flex;
+    background: coral;
+    height: 100px;
+    align-items: center;
+    font-size: 28px;
+    color: beige;
+    justify-content: center;
 }
