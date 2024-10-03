@@ -3,28 +3,44 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Landing Page</title>
-    <link href="styles/style.css" rel="stylesheet">
+    <title>Sinta-se Leve</title>
+    <link rel="apple-touch-icon" sizes="180x180" href="../components/images/favicon/android-chrome-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="../components/images/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="../components/images/favicon/favicon-16x16.png">
+    <link rel="icon" href="/favicon.ico">
+    <link rel="manifest" href="/site.webmanifest">
+    <link href="/styles/style.css" rel="stylesheet">
 </head>
 <body>
     <div class="info">
-        <p>Página dedicada estilo de vida saudável</p>
-        <p>Av. Xpto, 2829, Curitiba-PR</p>
-    </div>
-    <header>
-        <div class="title">
-            <h1>Sinta-se Leve</h1>
+        <div class="info-sub">
+            <p>Página dedicada ao estilo de vida saudável</p>
+            <a href="tel: +5541999999999">+55 41 9999 9999</a>
+            <p>Av. Xpto, 2829, Curitiba-PR</p>
         </div>
-        <ul>
-            <a href="#"><li>Carboidratos</li></a>
-            <a href="#"><li>Proteinas</li></a>
-            <a href="#"><li>Vitaminas</li></a>
-            <a href="#"><li>Dicas</li></a>
-        </ul>
+    </div>
+    <header class="menu">
+        <div class="menu-principal">
+            <div class="menu-title">
+                <a href="#">Sinta-se Leve</a>
+            </div>
+            <div class="menu-option">
+                <nav>
+                    <a href="#"><li>Carboidratos</li></a>
+                    <a href="#"><li>Proteinas</li></a>
+                    <a href="#"><li>Vitaminas</li></a>
+                    <a href="#"><li>Dicas</li></a>
+                </nav>
+            </div>
+        </div>
     </header>
+    <h1 class="title-content">
+        Toda informação básica <br>
+        Sobre Nutrição
+    </h1>
     <section class="carboidrato">
-        <div class="carboidrato-context">
-            <h1>Carboidratos</h1>
+        <div class="carboidrato-contet">
+            <h2 class="carboidrato-title">Carboidratos</h2>
             <p>Os alimentos ricos em carboidratos, como pão, arroz, batata-doce e macarrão, fornecem 
                 energia para o corpo na forma de calorias, ajudando a manter as funções vitais como 
                 respiração e o funcionamento dos órgãos, como cérebro, coração e pulmões.</p>
@@ -33,30 +49,30 @@
                 o ganho de peso.</p>
         </div>
         <div class="carboidrato-image">
-            <img src="components/images/carbo2.png" alt="carbo2">
+            <img src="../components/images/carbo2.png" alt="carbo2">
         </div>
     </section>
     <section class="proteina">
-        <h1>Proteinas</h1>
+        <h2 class="proteina-title">Proteinas</h2>
         <div class=".proteina-container">
             <div class="proteina-item peixe">
-                <h2>Peixe</h2>
-                <img src="components/images/peixe.png" alt="peixe">
+                <h3 class="proteina-item--name">Peixe</h3>
+                <img src="../components/images/peixe.png" alt="peixe">
             </div>
             <div class="proteina-item carne">
-                <h2>Carne</h2>
-                <img src="components/images/carne.png" alt="carne">
+                <h3 class="proteina-item--name">Carne</h3>
+                <img src="../components/images/carne.png" alt="carne">
             </div>
             <div class="proteina-item frango">
-                <h2>Frango</h2>
-                <img src="components/images/frango.png" alt="frango">
+                <h3 class="proteina-item--name">Frango</h3>
+                <img src="../components/images/frango.png" alt="frango">
             </div>
         </div>
     </section>
     <section class="vitaminas">
         <div class="vitaminas-itens">
             <h2>Vitamina A</h2>
-            <p>Beneficios</p>
+            <h3 class="vitaminas-itens--subtitle">Beneficios</h3>
             <ul>
                 <li>Antioxidante</li>
                 <li>Fortalecimento da imunidade</li>
@@ -67,7 +83,7 @@
         </div>
         <div class="vitaminas-itens">
             <h2>Vitamina B</h2>
-            <p>Beneficios</p>
+            <h3 class="vitaminas-itens--subtitle">Beneficios</h3>
             <ul>
                 <li>Produção de energia</li>
                 <li>Sistema nervoso</li>
@@ -78,7 +94,7 @@
         </div>
         <div class="vitaminas-itens">
             <h2>Vitamina C</h2>
-            <p>Beneficios</p>
+            <h3 class="vitaminas-itens--subtitle">Beneficios</h3>
             <ul>
                 <li>Colágeno</li>
                 <li>Metabolismo</li>
@@ -88,18 +104,43 @@
             <a href="#">Saiba mais</a>
         </div>
     </section>
-    <section>
-        <div>
-            <h1>Dicas</h1>
+    <section class="dicas">
+        <div class="dicas-item">
+            <h3 class="dicas-title">Movimente-se</h3>
+            <p class="dicas-description">combata o sedentarismo e faça exercícios ao menos 20 minutos por dia</p>
+        </div>
+        <div class="dicas-item">
+            <h3 class="dicas-title">Exercite o cérebro</h3>
+            <p class="dicas-description">realize atividades que envolvam novidade, variedade e desafios para  sua saude mental</p>
+        </div>
+        <div class="dicas-item">
+            <h3 class="dicas-title">Administre o stress</h3>
+            <p class="dicas-description">cultive emoções positivas, viva de maneira mais leve</p>
+        </div>
+        <div class="dicas-item">
+            <h3 class="dicas-title">Cuida da sua alimentação</h3>
+            <p class="dicas-description">Alimente-se de maneira saudável e adequada</p>
+        </div>
+        <div class="dicas-item">
+            <h3 class="dicas-title">Beba Agua</h3>
+            <p class="dicas-description"> Ela interfere na digestão, absorção e transporte 
+            de nutrientes, filtra as toxinas, facilita o processo de excreção do corpo</p>
+        </div>
+        <div class="dicas-item">
+            <h3 class="dicas-title">Descanse</h3>
+            <p class="dicas-description">Durante o sono o corpo produz proteínas extras 
+                que fazem o sistema imune ficar mais forte.</p>
         </div>
     </section>
-    <section>
-        <div>
-            <h1>Contatos</h1>
-            <form>
-                <input type="text" placeholder="Nome"></input>
+    <section class="contatos">
+        <div class="contatos-text">
+            <h2>Faça o seu cadastro</h2>
+            <p>Fique por dentro de dicas sobre vida saudável</p>
+        </div>
+        <div class="contatos-form">
+            <form class="contatos-dados">
                 <input type="email" placeholder="E-mail"></input>
-                <input type="submit" value="Enviar >"></input>
+                <button class="contatos-button" type="submit">Cadastrar</button>
             </form>
         </div>
     </section>
