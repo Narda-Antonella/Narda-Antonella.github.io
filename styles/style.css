@@ -196,7 +196,7 @@ body {
     background: beige;
     padding: 60px calc((100% - 960px) / 2 );
     display: flex;
-    flex-wrap: wrap;
+    gap: 50px; 
 }
 
 .contatos-text {
